@@ -36,7 +36,8 @@ JUGGLER_RUBY_FILES = src/vim.rb \
 		     src/lusty/name-bar.rb \
 		     src/lusty/buffer-stack.rb
 
-all: autoload/lustyexplorer.vim autoload/lustyjuggler.vim
+# all: autoload/lustyexplorer.vim autoload/lustyjuggler.vim
+all: autoload/lustyjuggler.vim
 
 UNAME := $(shell uname)
 

@@ -720,11 +720,11 @@ class BufferItem < BarItem
   end
 
   private
-    @@BUFFER_COLOR = "PreProc"
+    @@BUFFER_COLOR = "StatusLine"
     #@@BUFFER_COLOR = "None"
     @@DIR_COLOR = "Directory"
     @@SLASH_COLOR = "Function"
-    @@HIGHLIGHTED_COLOR = "Question"
+    @@HIGHLIGHTED_COLOR = "Search"
 
     # Breakdown the string to colourize each part.
     def destructure
